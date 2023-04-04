@@ -8,7 +8,7 @@ async function renderNews() {
         newsCard.classList.add('news-card')
 
         const newsImage = document.createElement('img');
-        newsImage.src = 'images/image1.jpg'
+        newsImage.src = 'https://picsum.photos/300/200'
         newsImage.alt = 'News Image'
         newsImage.classList.add('news-image')
 
